@@ -23,9 +23,9 @@ Set up the Anaconda environment: <br>
 
 ### Visualize 3D Keypoints
 
-'''
+```
 cd lightweight-human-pose-estimation-3d-demo.pytorch <br>
-Run visualizer for aist_sample.npy: python plot_AIST_Keypoints.py --joints ../aist_sample.py
-'''
+python plot_AIST_Keypoints.py --joints ../aist_sample.py
+```
 
 ## COCO 3D Body Keypoints to SMPL Estimation
