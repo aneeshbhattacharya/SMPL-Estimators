@@ -2,7 +2,6 @@
 This code has been assembled from the following 3 repositories: <br>
 <ol>
 <li>COCO to SMPL Estimator: https://github.com/google/aistplusplus_api</li>
-<li>AMASS to SMPL Estimator: https://github.com/GuyTevet/motion-diffusion-model</li>
 <li>Visualize 3D Keypoints: https://github.com/Daniil-Osokin/lightweight-human-pose-estimation-3d-demo.pytorch</li>
 </ol>
 
