@@ -18,7 +18,7 @@ Set up the Anaconda environment: <br>
 ```
 conda create -n VisDemo python=3.7
 conda activate VisDemo
-./setup_visualizer.sh
+setup_visualizer.sh
 ```
 
 ### Visualize 3D Keypoints
@@ -29,3 +29,15 @@ python plot_AIST_Keypoints.py --joints ../aist_sample.npy
 ```
 
 ## COCO 3D Body Keypoints to SMPL Estimation
+
+```
+conda create -n COCO_Estimator python=3.7
+conda activate COCO_Estimator
+setup_coco.sh
+```
+Further steps:
+<ol>
+<li>Download SMPL body model: https://download.is.tue.mpg.de/download.php?domain=smpl&sfile=SMPL_python_v.1.0.0.zip and place the "m" body as SMPL_MALE.pkl in COCO_to_SMPL_Estimation/smpl_body/</li>
+<li>Replace aist_plusplus_api-1.1.0-py3.7.egg in the created Anaconda env in site-packages/ with the one provided in this repository</li>
+<li>Place the aist_sample.pkl in the COCO_to_SMPL_Estimation/keypoints_dir/keypoints3d</li>
+</ol>
