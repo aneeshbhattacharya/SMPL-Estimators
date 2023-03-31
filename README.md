@@ -41,3 +41,8 @@ Further steps:
 <li>Replace aist_plusplus_api-1.1.0-py3.7.egg in the created Anaconda env in site-packages/ with the one provided in this repository</li>
 <li>Place the aist_sample.pkl in the COCO_to_SMPL_Estimation/keypoints_dir/keypoints3d</li>
 </ol>
+
+Command to estimate: 
+```
+python processing/run_estimate_smpl.py --anno_dir ./keypoints_dir/ --smpl_dir ./smpl_body/ --save_dir ./keypoints_dir/motions/ --data_type internal
+```
