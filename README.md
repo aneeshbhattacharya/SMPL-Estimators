@@ -15,11 +15,11 @@ The code has been tested on Ubuntu 20.04 and requires: <br>
 
 ### Setup for keypoints visualizer
 Set up the Anaconda environment: <br>
-<ol>
-<li>conda create -n VisDemo python=3.7</li>
-<li>conda activate VisDemo</li>
-<li>Run setup_visualizer.sh</li>
-</ol>
+```
+conda create -n VisDemo python=3.7
+conda activate VisDemo
+./setup_visualizer.sh
+```
 
 ### Visualize 3D Keypoints
 
