@@ -24,7 +24,7 @@ Set up the Anaconda environment: <br>
 ### Visualize 3D Keypoints
 
 ```
-cd lightweight-human-pose-estimation-3d-demo.pytorch <br>
+cd lightweight-human-pose-estimation-3d-demo.pytorch 
 python plot_AIST_Keypoints.py --joints ../aist_sample.py
 ```
 
